@@ -11,7 +11,15 @@ The provided repository serves as a comprehensive resource for the code files de
      - 	load_evaluated_model.ipynb: This notebook is a versatile tool to load and manipulate evaluated BERT models. Users can utilize this notebook to load the models they've generated, gain          insights into their performance metrics (such as F-scores), predict sentences, visualize histograms, and more. This interactive notebook streamlines the exploration of model    
         capabilities.
 
-   
+   1. First item
+   - Sub-bullet A
+   - Sub-bullet B
+2. Second item
+3. Third item
+   - Sub-bullet C
+   - Sub-bullet D
+4. Fourth item
+
 To effectively utilize the repository, follow these steps:
 1.	Utilize the provided datasets in the "datasets" folder to conduct experiments.
 2.	Leverage the "bertModels.py" file to define custom BERT models that align with the objectives of your research.
