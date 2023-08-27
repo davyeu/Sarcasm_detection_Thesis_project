@@ -3,11 +3,15 @@
 The provided repository serves as a comprehensive resource for the code files developed during the course of this thesis. To facilitate a better understanding of the repository's structure, it is organized as follows:
 1.	Datasets Folder: Contains the datasets utilized in the study for experimentation and evaluation.
 2.	BERTmodels Folder: Hosts essential Python scripts related to BERT models' development and evaluation:
-•	bertModels.py: A Python file encompassing the class definitions of BERT models, thoughtfully tailored to the specific objectives of the study.
-•	runBERTModels.py: A script file offering a command-line interface (CLI) to evaluate the BERT models. By appending specific parameters, users can effortlessly assess various aspects of the models' performance.
+    - 	bertModels.py: A Python file encompassing the class definitions of BERT models, thoughtfully tailored to the specific objectives of the study.
+   - 	runBERTModels.py: A script file offering a command-line interface (CLI) to evaluate the BERT models. By appending specific parameters, users can effortlessly assess various aspects of         the models' performance.
 3.	Jupyter Notebooks: These notebooks provide hands-on demonstrations of key procedures and functionalities:
-•	open_terminal.ipynb: This notebook serves as an illustrative guide, demonstrating how to employ command-line instructions to create specialized BERT models. By following the instructions, users can generate customized models to cater to their particular requirements.
-•	load_evaluated_model.ipynb: This notebook is a versatile tool to load and manipulate evaluated BERT models. Users can utilize this notebook to load the models they've generated, gain insights into their performance metrics (such as F-scores), predict sentences, visualize histograms, and more. This interactive notebook streamlines the exploration of model capabilities.
+    - 	open_terminal.ipynb: This notebook serves as an illustrative guide, demonstrating how to employ command-line instructions to create specialized BERT models. By following the      
+       instructions, users can generate customized models to cater to their particular requirements.
+     - 	load_evaluated_model.ipynb: This notebook is a versatile tool to load and manipulate evaluated BERT models. Users can utilize this notebook to load the models they've generated, gain          insights into their performance metrics (such as F-scores), predict sentences, visualize histograms, and more. This interactive notebook streamlines the exploration of model    
+        capabilities.
+
+   
 To effectively utilize the repository, follow these steps:
 1.	Utilize the provided datasets in the "datasets" folder to conduct experiments.
 2.	Leverage the "bertModels.py" file to define custom BERT models that align with the objectives of your research.
@@ -32,12 +36,13 @@ python runBERTmodels.py
 [--output_model_dir OUTPUT_MODEL_DIR]
 [-- model_mode  MODEL_MODE]
 
+
  	
 
-●	where  ABSOLUTE_PATH is the path to the datasets folder
-●	where DATASETS  is short path to datasets for cross domain evaluation
-●	where OUTPUT_MODEL_DIR is the path where to save the model
-●	where MODEL_MODE is “training” or “testing”
+- 	where  ABSOLUTE_PATH is the path to the datasets folder
+- where DATASETS  is short path to datasets for cross domain evaluation
+- 	where OUTPUT_MODEL_DIR is the path where to save the model
+- 	where MODEL_MODE is “training” or “testing”
 
 for example, the command:
 
