@@ -4,21 +4,14 @@ The provided repository serves as a comprehensive resource for the code files de
 1.	Datasets Folder: Contains the datasets utilized in the study for experimentation and evaluation.
 2.	BERTmodels Folder: Hosts essential Python scripts related to BERT models' development and evaluation:
     - 	bertModels.py: A Python file encompassing the class definitions of BERT models, thoughtfully tailored to the specific objectives of the study.
-   - 	runBERTModels.py: A script file offering a command-line interface (CLI) to evaluate the BERT models. By appending specific parameters, users can effortlessly assess various aspects of         the models' performance.
+    - 	runBERTModels.py: A script file offering a command-line interface (CLI) to evaluate the BERT models. By appending specific parameters, users can effortlessly assess various aspects of         the models' performance.
 3.	Jupyter Notebooks: These notebooks provide hands-on demonstrations of key procedures and functionalities:
-    - 	open_terminal.ipynb: This notebook serves as an illustrative guide, demonstrating how to employ command-line instructions to create specialized BERT models. By following the      
+     - 	open_terminal.ipynb: This notebook serves as an illustrative guide, demonstrating how to employ command-line instructions to create specialized BERT models. By following the      
        instructions, users can generate customized models to cater to their particular requirements.
      - 	load_evaluated_model.ipynb: This notebook is a versatile tool to load and manipulate evaluated BERT models. Users can utilize this notebook to load the models they've generated, gain          insights into their performance metrics (such as F-scores), predict sentences, visualize histograms, and more. This interactive notebook streamlines the exploration of model    
         capabilities.
 
-   1. First item
-   - Sub-bullet A
-   - Sub-bullet B
-2. Second item
-3. Third item
-   - Sub-bullet C
-   - Sub-bullet D
-4. Fourth item
+
 
 To effectively utilize the repository, follow these steps:
 1.	Utilize the provided datasets in the "datasets" folder to conduct experiments.
