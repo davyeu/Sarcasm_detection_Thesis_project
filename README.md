@@ -1,6 +1,10 @@
 # Sarcasm_detection_Thesis_project
 
-The provided repository serves as a comprehensive resource for the code files developed during the course of this thesis. To facilitate a better understanding of the repository's structure, it is organized as follows:
+The provided repository serves as a comprehensive resource for the code files developed during the course of this thesis.
+
+In addition to the code file, a presentation of the thesis is attached as a PDF file to provide a deeper understanding of the concepts in my thesis.
+
+To facilitate a better understanding of the repository's structure, it is organized as follows:
 1.	Datasets Folder: Contains the datasets utilized in the study for experimentation and evaluation.
 2.	BERTmodels Folder: Hosts essential Python scripts related to BERT models' development and evaluation:
     - 	bertModels.py: A Python file encompassing the class definitions of BERT models, thoughtfully tailored to the specific objectives of the study.
