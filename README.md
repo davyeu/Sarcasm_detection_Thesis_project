@@ -7,8 +7,13 @@ In addition to the code files, a presentation of the thesis is attached as a PDF
 To facilitate a better understanding of the repository's structure, it is organized as follows:
 
 ### The Data
-1.	Datasets Folder: Contains the datasets utilized in the study for experimentation and evaluation.
-2.	BERTmodels Folder: Hosts essential Python scripts related to BERT models' development and evaluation:
+In Datasets Folder you can find the datasets utilized in the study for experimentation and evaluation.
+every dataset contain at least two fields:sentence and label.
+most of the dataset contain extactly two labels: positive or negative.
+
+### The model
+We use `bert-base-uncased` for the binary calssifiction task. 
+BERTmodels Folder hosts essential Python scripts related to BERT models' development and evaluation:
     - 	bertModels.py: A Python file encompassing the class definitions of BERT models, thoughtfully tailored to the specific objectives of the study.
     - 	runBERTModels.py: A script file offering a command-line interface (CLI) to evaluate the BERT models. By appending specific parameters, users can effortlessly assess various aspects of         the models' performance.
 3.	Jupyter Notebooks: These notebooks provide hands-on demonstrations of key procedures and functionalities:
