@@ -1,4 +1,4 @@
-# Sarcasm_detection_Thesis_project
+# Sarcasm detection in social network
 
 The provided repository serves as a comprehensive resource for the code files developed during the course of this thesis.
 
