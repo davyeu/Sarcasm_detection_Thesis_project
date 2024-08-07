@@ -28,16 +28,17 @@ Here a brief explanation on the files:
         capabilities.
        	
 
-### how to kick off this model
+### how to initiate this model
 after download the this project, go the directory where
 runBERTmodels.py is located. then execute in shell this command:
 
 ```
+python  runBERTmodels.py
 [--absolute_path ABSOLUTE_PATH]
 [--datasets DATASETS]
 [--output_model_dir OUTPUT_MODEL_DIR]
-
 ```
+
 
  	
 -     ABSOLUTE_PATH is the path to the datasets folder
@@ -48,5 +49,5 @@ runBERTmodels.py is located. then execute in shell this command:
 Example for the command above:
 
 ```
-python  runBERTmodels.py --datasets "SARC_dataset_train.csv sarc_test.csv SemEval2022_test.csv" --output_model_dir "/content/drive/MyDrive/Thesis project/Thesis/BERTmodels/savedModels"
+python  runBERTmodels.py  --absolute_path "C:/Thesis/datasets/"--datasets "SARC_dataset_train.csv sarc_test.csv SemEval2022_test.csv" --output_model_dir "Thesis/savedModels"
 ```
