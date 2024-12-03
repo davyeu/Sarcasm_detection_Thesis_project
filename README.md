@@ -4,7 +4,7 @@ The provided repository serves as a comprehensive resource for the code files de
 
 In addition to the code files, a presentation of the thesis is attached as a PDF file to provide a deeper understanding of the concepts in my thesis.
 
-[View the PDF](Thesis defense.pdf) 
+[View the PDF](Thesis_defense.pdf) 
 
 
 
