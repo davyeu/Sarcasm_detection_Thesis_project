@@ -4,7 +4,7 @@ The provided repository serves as a comprehensive resource for the code files de
 
 In addition to the code files, a presentation of the thesis is attached as a PDF file to provide a deeper understanding of the concepts in my thesis.
 
-<iframe src="Sarcasm_detection_Thesis_project/Thesis defense.pdf" width="100%" height="600px"></iframe>
+<iframe src="Thesis defense.pdf" width="100%" height="600px"></iframe>
 
 
 
