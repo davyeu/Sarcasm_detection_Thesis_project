@@ -15,6 +15,116 @@ In Datasets Folder you can find the datasets utilized in the study for experimen
 every dataset contain at least two fields:sentence and label.
 most of the datasets contain extactly two labels: positive or negative.
 
+The Table below show the sources for the datasets and additional intel:
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Dataset Name</th>
+      <th>Source</th>
+      <th>Link</th>
+      <th>Original Size</th>
+      <th>Current Sample Size</th>
+      <th>Positive Percentage</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>abuseDataset</td>
+      <td>the text is same as olid, but the labels given by Tommaso Caselli</td>
+      <td><a href="https://github.com/tommasoc80/AbuseEval">https://github.com/tommasoc80/AbuseEval</a></td>
+      <td>13241</td>
+      <td>5000</td>
+      <td>0.2</td>
+      <td>explanation on the labels can be found here</td>
+    </tr>
+    <tr>
+      <td>empathyDataset</td>
+      <td></td>
+      <td><a href="https://github.com/behavioral-data/Empathy-Mental-Health/blob/master/dataset/emotional-reactions-reddit.csv">https://github.com/behavioral-data/Empathy-Mental-Health/blob/master/dataset/emotional-reactions-reddit.csv</a></td>
+      <td>3085</td>
+      <td>3085</td>
+      <td>0.33</td>
+      <td>The original table contains 3 kinds of labels. I changed it to 2 labels for binary classification.</td>
+    </tr>
+    <tr>
+      <td>hateDataset</td>
+      <td>Valerio Basile</td>
+      <td><a href="https://github.com/msang/hateval">https://github.com/msang/hateval</a></td>
+      <td>100</td>
+      <td>100</td>
+      <td>0.5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>hateDataset2</td>
+      <td>data.world</td>
+      <td><a href="https://data.world/thomasrdavidson/hate-speech-and-offensive-language">https://data.world/thomasrdavidson/hate-speech-and-offensive-language</a></td>
+      <td></td>
+      <td>1400</td>
+      <td>0.5</td>
+      <td>The positive class is hate speech</td>
+    </tr>
+    <tr>
+      <td>hopeDataset</td>
+      <td></td>
+      <td><a href="https://codalab.lisn.upsaclay.fr/competitions/10215#participate-get_starting_kit">https://codalab.lisn.upsaclay.fr/competitions/10215#participate-get_starting_kit</a></td>
+      <td>22652</td>
+      <td>5000</td>
+      <td>0.2</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>humorDataset</td>
+      <td>ColBERT: Using BERT Sentence Embedding in Parallel Neural Networks for Computational Humor</td>
+      <td><a href="https://github.com/Moradnejad/ColBERT-Using-BERT-Sentence-Embedding-for-Humor-Detection">https://github.com/Moradnejad/ColBERT-Using-BERT-Sentence-Embedding-for-Humor-Detection</a></td>
+      <td>200k</td>
+      <td>5000</td>
+      <td>0.5</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ironyDataset</td>
+      <td>kaggle</td>
+      <td><a href="https://www.kaggle.com/datasets/rtatman/ironic-corpus">https://www.kaggle.com/datasets/rtatman/ironic-corpus</a></td>
+      <td>1950</td>
+      <td>1950</td>
+      <td>0.27</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>OffensiveDataset</td>
+      <td>olid</td>
+      <td><a href="https://sites.google.com/site/offensevalsharedtask/olid">https://sites.google.com/site/offensevalsharedtask/olid</a></td>
+      <td>13241</td>
+      <td>5000</td>
+      <td>0.2</td>
+      <td>The link for downloading the zip file is at the bottom of the page</td>
+    </tr>
+    <tr>
+      <td>offensiveDataset2</td>
+      <td>data.world</td>
+      <td><a href="https://data.world/thomasrdavidson/hate-speech-and-offensive-language">https://data.world/thomasrdavidson/hate-speech-and-offensive-language</a></td>
+      <td></td>
+      <td>1400</td>
+      <td>0.5</td>
+      <td>The positive class is offense</td>
+    </tr>
+    <tr>
+      <td>toxicityDataset</td>
+      <td>Vladyslav Kozhukhov</td>
+      <td><a href="https://www.kaggle.com/datasets/saurabhshahane/cyberbullying-dataset?select=toxicity_parsed_dataset.csv">https://www.kaggle.com/datasets/saurabhshahane/cyberbullying-dataset?select=toxicity_parsed_dataset.csv</a></td>
+      <td>160k</td>
+      <td>5000</td>
+      <td>0.5</td>
+      <td>The related dataset is "toxicity parsed dataset"</td>
+    </tr>
+    <!-- Continue adding rows as needed -->
+  </tbody>
+</table>
+
+
 ### The model
 We use `bert-base-uncased` for the binary calssifiction task. 
 BERTmodels Folder hosts essential Python scripts related to BERT models' development and evaluation,
